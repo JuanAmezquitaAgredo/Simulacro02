@@ -1,0 +1,348 @@
+/*Aqui se reinicia la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+.header1 #imghead{
+    width: 100%;
+    height: 400px;
+}
+
+.head2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100px;
+}
+.head1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+
+.logo1{
+    display: flex;
+    color: white;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 80px;
+}
+
+.imgredes{
+    width: 30%;
+    text-align: center;
+}
+
+.imgredes img{
+    width: 250px;
+    padding: 0;
+    margin-top: -10px;
+}
+
+.logosbusqueda{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+.logosbusqueda span{
+    font-size: 40px;
+    margin-right: 60px;
+}
+
+
+/*NAV*/
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.nav1{
+    display: flex;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.nav2{
+    width: 40%;
+    height: 100%;
+    margin: 10px;
+    
+}
+
+.magdalena{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.magdalena img{
+    width: 100%;
+    height: 100%;
+}
+
+.santander{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+
+.santander img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.titulo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+.titulo p{
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+      
+
+.nav3{
+    width: 60%;
+    height: 100%;
+    margin: 10px;
+}
+
+.nav31{
+    display: flex;
+}
+
+.antioquia{
+    width: 50%;
+    display: flex;
+    align-items: end;
+    position: relative;
+    margin-right: 10px;
+}
+
+.antioquia img{
+    width: 100%;
+    height: 100%;
+}
+
+.amazonas{
+    width: 50%;
+    height: 325px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    margin-left: 10px;
+}
+
+.amazonas img{
+    width: 100%;
+    height: 100%;
+}
+
+.arauca{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    margin-top: 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.arauca img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Secction*/
+
+section{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 200px;
+}
+.section1{
+    width: 89%;
+    height: 100%;
+    display: flex;
+}
+
+.section21{
+    width: 70%;
+    margin-right: 30px;
+}
+.section22{
+    width: 30%;
+    margin-left: 30px;
+}
+
+.section12{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 2px solid greenyellow;
+    margin-bottom: 20px;
+
+}
+
+.section12 img{
+    width: 50%;
+    height: 300px;
+    margin-right: 10px;
+}
+.section121{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 2px solid greenyellow;
+    margin-bottom: 20px;
+}
+
+.section121 img{
+    width: 50%;
+    margin-right: 10px;
+}
+.letrassec{
+    width: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#leer{
+    color: aqua;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+.letras{
+    width: 50%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.letras h2{
+    color: rgb(0, 183, 255);
+    
+}
+
+
+.letras div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.peru img{
+    width: 100%;
+}
+
+.cat{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.public{
+    display: flex;
+    margin: 40px;
+}
+
+.public img{
+    width: 150px;
+}
+.public p{
+    width: 150px;
+    margin-left: 20px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    margin-top: 200px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    color: white;
+}
+
+.form{
+    margin-right: 6.5%;
+    margin-top: 10px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 5px;
+}
+.form input{
+    height: 26px;
+    width: 200px;
+}
+
+.form a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(80, 79, 79);
+    padding: 5px;
+}
+
+.foot h3{
+    margin-right: 3.5%;
+    margin-bottom: 10px;
+}
+
+.foot img{
+    width: 200px;
+    margin-right: 9%;
+    margin-top: 20px;
+}
